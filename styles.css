@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    height: 100vh;
+    background: url('https://picsum.photos/id/60/1200/800') center/cover no-repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative
+
+}
+
+header {
+    position: absolute;
+    top: 50px;
+    right: 70px;
+    font-size: 12px;
+    color: white;
+}
+.box {
+    margin: auto;
+    /* border: 1px solid blue; */
+    }
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+h2 {
+    font-size: 2em;
+}
+.dowload {
+    padding: 5px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.tab-load {
+    /* border: 1px solid white; */
+    width: 400px;
+    height: 20px;
+    background-color: white;
+}
+
+.loading {
+    border: 1px solid cadetblue;
+    width: 70%;
+    height: 100%;
+    background-color: cadetblue;
+}
+
+.text-loading {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 10px;
+}
+.bt {
+    display: flex;
+    justify-content: center;
+}
+button {
+    background-color: rgb(144, 178, 239);
+}
+
+.circle {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.inside-c {
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
